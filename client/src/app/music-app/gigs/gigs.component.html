@@ -1,0 +1,11 @@
+<div class="wrapper">
+  <div class="events">
+    <h3>Events</h3>
+    <div class="eventItem" *ngFor="let event of events">
+       <h4>{{event.events}}</h4>
+       <h5>{{event.location}} {{event.city}}, {{event.state}}</h5>
+       <h5>{{event.date | date: 'fullDate' }}</h5>
+       <h5>{{event.date | date: 'jm' }}</h5>
+    </div>
+  </div>
+</div>

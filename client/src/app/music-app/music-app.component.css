@@ -1,0 +1,69 @@
+
+body {
+  background: url("../../assets/musicEvent.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
+  color: white;
+  margin: -10px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+.wrapper{
+  background-color: rgba(0, 0, 0, 0.5);
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-areas:
+    "header header header header header header header header header"
+    "... title title title title ... ... ... ..."
+
+}
+.header{
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-area: header;
+  grid-template-areas:
+    "... home about music video gigs contact social ...";
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 3%;
+  text-align: center;
+  font-size: 1.4vw;
+}
+
+.home{grid-area: home;}
+.about{grid-area: about;}
+.music{grid-area: music;}
+.video{grid-area: video;}
+.gigs{grid-area: gigs;}
+.contact{grid-area: contact;}
+.social{grid-area: social;}
+
+.title{grid-area: title;}
+
+/*Image and Video Resizing*/
+.imageResize{
+  width: 200%;
+}
+.videoSize{
+  width: 100%;
+  height: 150%;
+  width: auto\9;
+}
+
+@media(min-width: 600px ){
+  .mainContent{
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas:
+      "events events events events events media media media"
+  }
+  .imageResize{
+    width: auto\9;
+    max-width: 100%;
+  	height: auto;
+  }
+}

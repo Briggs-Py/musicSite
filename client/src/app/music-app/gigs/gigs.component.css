@@ -1,0 +1,26 @@
+.wrapper{
+  background-color: rgba(0, 0, 0, 0.5);
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-areas:
+    "... events events events events events events events ...";
+  margin: -15px, 0px, -10px, 0px;
+}
+.events{
+  grid-area: events;
+  text-align: center;
+}
+
+.eventItem{
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1%;
+  margin: 1%;
+  position: relative;
+
+}
+@media(min-width: 700px ){
+  .events{
+    font-size: 2vw;
+  }
+
+}

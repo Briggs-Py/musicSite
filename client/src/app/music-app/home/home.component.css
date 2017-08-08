@@ -1,0 +1,75 @@
+
+a{
+  color: white;
+  text-decoration: none;
+}
+.wrapper{
+  background-color: rgba(0, 0, 0, 0.5);
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-areas:
+    "... main main main main main main main ..."
+    "footer footer footer footer footer footer footer footer footer";
+  margin: -15px, 0px, -10px, 0px;
+}
+
+.mainContent{
+  grid-area: main;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  grid-template-areas:
+    "events events events"
+    "media media media";
+  text-align: center;
+}
+
+.events{grid-area: events}
+
+.eventItem{
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1%;
+  margin: 1%;
+  position: relative;
+}
+
+.media{grid-area: media}
+
+.videos{
+  width: 100%;
+}
+.Video{
+  padding: 3%;
+  height: 200px;
+}
+
+.footer{
+  grid-area: footer;
+  text-align: center;
+  padding: 2%;
+  font-size: 75%;
+}
+
+/*Image and Video Resizing*/
+.imageResize{
+  width: 200%;
+}
+iframe{
+  width: 100%;
+  height: 100%;
+}
+
+@media(min-width: 700px ){
+  .mainContent{
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas:
+      "events events events events media media media media"
+  }
+  .imageResize{
+    width: auto\9;
+    max-width: 100%;
+  	height: auto;
+
+  }
+
+}

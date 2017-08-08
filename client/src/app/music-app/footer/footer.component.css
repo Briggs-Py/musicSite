@@ -1,0 +1,14 @@
+.wrapper{
+  background-color: rgba(0, 0, 0, 0.5);
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-areas:
+    "footer footer footer footer footer footer footer footer footer";
+  margin: -15px, 0px, -10px, 0px;
+}
+.footer{
+  grid-area: footer;
+  text-align: center;
+  padding: 2%;
+  font-size: 75%;
+}
