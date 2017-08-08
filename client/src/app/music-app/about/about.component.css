@@ -3,12 +3,46 @@
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   grid-template-areas:
-    "... about about about about about about about ..."
-    "footer footer footer footer footer footer footer footer footer";
+    "... pic pic pic pic pic pic pic ..."
+    "... about about about about about about about ...";
   margin: -15px, 0px, -10px, 0px;
   min-height: 1200px;
 }
 .about{
   grid-area: about;
   text-align: center;
+}
+.about > p{
+  background: rgba(0, 0, 0, 0.5);
+  padding: 8%;
+}
+.pic{
+  grid-area: pic;
+  margin-top: 20px;
+}
+
+.backdrop{
+  padding: 2%;
+  padding-bottom: 0.5% !important;
+  background: rgba(0, 0, 0, 0.5);
+}
+.imageResize{
+  width: 100%;
+}
+
+@media(min-width: 600px ){
+  .wrapper{
+    grid-template-columns: repeat(9, 1fr);
+    grid-gap: 20px;
+    grid-template-areas:
+      "... about about about about pic pic pic ...";
+  }
+  .imageResize{
+    width: auto\6;
+    max-width: 100%;
+  	height: auto;
+  }
+  .pic{
+    margin-top: 92px;
+  }
 }
