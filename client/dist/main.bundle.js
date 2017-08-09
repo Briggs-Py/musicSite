@@ -1,6 +1,6 @@
 webpackJsonp([1,5],{
 
-/***/ 142:
+/***/ 141:
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -9,20 +9,20 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 142;
+webpackEmptyContext.id = 141;
 
 
 /***/ }),
 
-/***/ 143:
+/***/ 142:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(150);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(153);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(148);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(155);
 
 
 
@@ -35,7 +35,7 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dyna
 
 /***/ }),
 
-/***/ 152:
+/***/ 150:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -57,8 +57,8 @@ var AppComponent = (function () {
 AppComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* Component */])({
         selector: 'app-root',
-        template: __webpack_require__(222),
-        styles: [__webpack_require__(211)]
+        template: __webpack_require__(219),
+        styles: [__webpack_require__(209)]
     })
 ], AppComponent);
 
@@ -66,25 +66,25 @@ AppComponent = __decorate([
 
 /***/ }),
 
-/***/ 153:
+/***/ 151:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(149);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(147);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(85);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__music_app_music_app_service__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_routes__ = __webpack_require__(154);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(152);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__music_app_music_app_component__ = __webpack_require__(156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_routes__ = __webpack_require__(152);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(150);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__music_app_music_app_component__ = __webpack_require__(154);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__music_app_home_home_component__ = __webpack_require__(89);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__music_app_about_about_component__ = __webpack_require__(86);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__music_app_music_music_component__ = __webpack_require__(90);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__music_app_video_video_component__ = __webpack_require__(91);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__music_app_gigs_gigs_component__ = __webpack_require__(88);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__music_app_contact_contact_component__ = __webpack_require__(87);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__music_app_footer_footer_component__ = __webpack_require__(155);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__music_app_footer_footer_component__ = __webpack_require__(153);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -140,11 +140,11 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 154:
+/***/ 152:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(149);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__music_app_home_home_component__ = __webpack_require__(89);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__music_app_about_about_component__ = __webpack_require__(86);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__music_app_music_music_component__ = __webpack_require__(90);
@@ -172,7 +172,7 @@ var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule 
 
 /***/ }),
 
-/***/ 155:
+/***/ 153:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -198,8 +198,8 @@ var FooterComponent = (function () {
 FooterComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* Component */])({
         selector: 'app-footer',
-        template: __webpack_require__(225),
-        styles: [__webpack_require__(214)]
+        template: __webpack_require__(222),
+        styles: [__webpack_require__(212)]
     }),
     __metadata("design:paramtypes", [])
 ], FooterComponent);
@@ -208,7 +208,7 @@ FooterComponent = __decorate([
 
 /***/ }),
 
-/***/ 156:
+/***/ 154:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -233,6 +233,26 @@ var MusicAppComponent = (function () {
     MusicAppComponent.prototype.ngOnInit = function () {
         this.allEvents();
     };
+    MusicAppComponent.prototype.ngAfterViewInit = function () {
+        $('.cross').hide();
+        $(".menu").hide();
+        $(".hamburger").click(function () {
+            $("body").css("background-color", "rgba(0, 0, 0, 0.9)");
+            $(".menu").slideToggle("slow", function () {
+                $(".hamburger").hide();
+                $(".cross").show();
+            });
+        });
+        $(".cross").click(function () {
+            $("body").css("background-color", "rgba(0, 0, 0, 0.0)");
+            $(".menu").slideToggle("slow", function () {
+                $(".cross").hide();
+                $(".hamburger").show();
+            });
+        });
+    };
+    MusicAppComponent.prototype.toggleTitle = function () {
+    };
     MusicAppComponent.prototype.allEvents = function () {
         var _this = this;
         this._musicAppService.allEvents()
@@ -249,8 +269,8 @@ var MusicAppComponent = (function () {
 MusicAppComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* Component */])({
         selector: 'app-music-app',
-        template: __webpack_require__(228),
-        styles: [__webpack_require__(217)]
+        template: __webpack_require__(225),
+        styles: [__webpack_require__(215)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__music_app_service__["a" /* MusicAppService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__music_app_service__["a" /* MusicAppService */]) === "function" && _a || Object])
 ], MusicAppComponent);
@@ -260,7 +280,7 @@ var _a;
 
 /***/ }),
 
-/***/ 157:
+/***/ 155:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -277,7 +297,7 @@ var environment = {
 
 /***/ }),
 
-/***/ 211:
+/***/ 209:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(15)(false);
@@ -295,7 +315,7 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 212:
+/***/ 210:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(15)(false);
@@ -313,7 +333,7 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 213:
+/***/ 211:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(15)(false);
@@ -321,7 +341,7 @@ exports = module.exports = __webpack_require__(15)(false);
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".wrapper{\n  background-color: rgba(0, 0, 0, 0.5);\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: (1fr)[9];\n      grid-template-columns: repeat(9, 1fr);\n  grid-template-areas:\n    \"... contact contact contact contact contact contact contact ...\";\n  margin: -15px, 0px, -10px, 0px;\n  min-height: 1200px;\n}\n.contact{\n  grid-area: contact;\n  -ms-grid-columns: (1fr)[9];\n      grid-template-columns: repeat(9, 1fr);\n  grid-template-areas:\n    \"... form form form form form form form ...\"\n    \"... info info info info info info info ...\";\n}\n.form{\n  grid-area: form;\n}\n\n.form-control {\n  display: block;\n  width: 20%;\n  height: 34px;\n  padding: 6px 12px;\n  font-size: 14px;\n  line-height: 1.42857143;\n  color: #555;\n  background-color: #fff;\n  background-image: none;\n  border: 1px solid #ccc;\n  border-radius: 4px;\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);\n  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;\n}\n\ninput{\n  width: 100%;\n  padding: 10px 0px 10px 5px;\n  margin: 1%;\n}\n#message{\n  padding-bottom: 150px;\n}\n#send{\n\n}\n.info{\n  margin-top: 50px;\n  grid-area: info;\n  -ms-grid-columns: (1fr)[2];\n      grid-template-columns: repeat(2, 1fr);\n  grid-template-areas:\n    \"data1 data2\";\n  text-align: center;\n}\n.data1{\n  grid-area: data1;\n}\n.data2{\n  grid-area: data2;\n}\n", ""]);
 
 // exports
 
@@ -331,7 +351,7 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 214:
+/***/ 212:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(15)(false);
@@ -349,7 +369,7 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 215:
+/***/ 213:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(15)(false);
@@ -367,6 +387,42 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
+/***/ 214:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(15)(false);
+// imports
+
+
+// module
+exports.push([module.i, "\na{\n  color: white;\n  text-decoration: none;\n}\n.wrapper{\n  background-color: rgba(0, 0, 0, 0.5);\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: (1fr)[9];\n      grid-template-columns: repeat(9, 1fr);\n  grid-template-areas:\n    \"... main main main main main main main ...\";\n  margin: -15px, 0px, -10px, 0px;\n}\n\n.mainContent{\n  grid-area: main;\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: (1fr)[3];\n      grid-template-columns: repeat(3, 1fr);\n  grid-gap: 15px;\n  grid-template-areas:\n    \"events events events\"\n    \"media media media\";\n  text-align: center;\n}\n\n.events{grid-area: events}\n\n.eventItem{\n  background: rgba(0, 0, 0, 0.6);\n  padding: 1%;\n  margin: 1%;\n  position: relative;\n}\n\n.media{grid-area: media}\n\n.videos{\n  width: 100%;\n}\n.Video{\n  padding-right: 1%;\n  padding-bottom: 4%;\n  height: 200px;\n}\n\n.Audio > img{\n  width: 100%;\n}\n\naudio{\n  width: 100%;\n  margin-top: -10px;\n  margin-bottom: 20px;\n}\n\n.footer{\n  grid-area: footer;\n  text-align: center;\n  padding: 2%;\n  font-size: 75%;\n}\n\n/*Image and Video Resizing*/\n.imageResize{\n  width: 200%;\n}\niframe{\n  width: 100%;\n  height: 100%;\n}\n\n@media(min-width: 700px ){\n  .mainContent{\n    -ms-grid-columns: (1fr)[8];\n        grid-template-columns: repeat(8, 1fr);\n    grid-template-areas:\n      \"events events events events media media media media\"\n  }\n  .imageResize{\n    width: auto\\9;\n    max-width: 100%;\n  \theight: auto;\n  }\n  .Video{\n    height: 200px;\n  }\n  iframe{\n    width: 100%;\n    height: 100%;\n  }\n\n}\n\n@media(min-width: 1200px){\n  .Video{\n    height: 300px;\n  }\n}\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 215:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(15)(false);
+// imports
+
+
+// module
+exports.push([module.i, "\nbody {\n  background: url(" + __webpack_require__(496) + ") no-repeat center center fixed;\n  background-size: cover;\n  background-color: black;\n  color: white;\n  margin: -10px;\n}\n\na{\n  color: white;\n  text-decoration: none;\n}\n.wrapper{\n  background-color: rgba(0, 0, 0, 0.5);\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: (1fr)[9];\n      grid-template-columns: repeat(9, 1fr);\n  grid-template-areas:\n    \"header header header header header header header header header\"\n    \"... title title title title ... ... ... ...\"\n\n}\n.aheader{\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: (1fr)[4];\n      grid-template-columns: repeat(4, 1fr);\n  grid-area: header;\n  grid-template-areas:\n    \"... ... ... hamburger \";\n  background-color: rgba(0, 0, 0, 0.7);\n  height: 30px;\n  padding: 3%;\n  text-align: center;\n}\n\n.home{\n  display: none;\n  grid-area: home;\n}\n.about{\n  display: none;\n  grid-area: about;\n}\n.music{\n  display: none;\n  grid-area: music;\n}\n.video{\n  display: none;\n  grid-area: video;\n}\n.gigs{\n  display: none;\n  grid-area: gigs;\n}\n.contact{\n  display: none;\n  grid-area: contact;\n}\n.social{\n  display: none;\n  grid-area: social;\n}\n.title{grid-area: title;}\n\n.hamburger{\n  display: inline-block;\n  background:none;\n  position:absolute;\n  top:0;\n  right:0;\n  line-height:45px;\n  padding:5px 25px 0px 15px;\n  color:#999;\n  border:0;\n  font-size:2em;\n  font-weight:bold;\n  cursor:pointer;\n  outline:none;\n  z-index:10000000000000;\n}\n.cross{\n  background:none;\n  position:absolute;\n  top:0px;\n  right:0;\n  padding:15px 25px 0px 15px;\n  color:#999;\n  border:0;\n  font-size:4em;\n  line-height:65px;\n  font-weight:bold;\n  cursor:pointer;\n  outline:none;\n  z-index:10000000000000;\n}\n\n.menu{z-index:1000000; margin-right: -5px; font-weight:bold; width:100%; background:rgba(0,0,0,0.9);  position:absolute; text-align:center; font-size:14px;}\n.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}\n.menu li {display: block;   padding:20px 0 20px 0; border-bottom:#393939 1px solid;}\n.menu li:hover{display: block; background:#000; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}\n.menu ul li a { text-decoration:none;  margin: 0px; color:#fff;}\n.menu ul li a:hover {  color: #fff; text-decoration:none;}\n.menu a{text-decoration:none; color:#fff;}\n.menu a:hover{text-decoration:none; color:#fff;}\n\n/*Image and Video Resizing*/\n.imageResize{\n  width: 200%;\n}\n.videoSize{\n  width: 100%;\n  height: 150%;\n  width: auto\\9;\n}\n\n@media(min-width: 600px ){\n  .mainContent{\n    -ms-grid-columns: (1fr)[8];\n        grid-template-columns: repeat(8, 1fr);\n    grid-template-areas:\n      \"events events events events events media media media\"\n  }\n  .imageResize{\n    width: auto\\9;\n    max-width: 100%;\n  \theight: auto;\n  }\n  .hamburger{\n    display: none;\n  }\n  .cross{\n    display: none;\n  }\n  .home{\n    display: inline;\n    grid-area: home;\n  }\n  .about{\n    display: inline;\n    grid-area: about;\n  }\n  .music{\n    display: inline;\n    grid-area: music;\n  }\n  .video{\n    display: inline;\n    grid-area: video;\n  }\n  .gigs{\n    display: inline;\n    grid-area: gigs;\n  }\n  .contact{\n    display: inline;\n    grid-area: contact;\n  }\n  .social{\n    display: inline;\n    padding-right: 2%;\n    grid-area: social;\n  }\n  .social > a, img{\n    width: 20px;\n    margin-right: 2%;\n  }\n  .aheader{\n    display: -ms-grid;\n    display: grid;\n    -ms-grid-columns: (1fr)[9];\n        grid-template-columns: repeat(9, 1fr);\n    grid-area: header;\n    grid-template-areas:\n      \"... home about music video gigs contact social social\";\n    background-color: rgba(0, 0, 0, 0.7);\n    padding: 3%;\n    text-align: center;\n    font-size: 15px;\n  }\n}\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
 /***/ 216:
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -375,7 +431,7 @@ exports = module.exports = __webpack_require__(15)(false);
 
 
 // module
-exports.push([module.i, "\na{\n  color: white;\n  text-decoration: none;\n}\n.wrapper{\n  background-color: rgba(0, 0, 0, 0.5);\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: (1fr)[9];\n      grid-template-columns: repeat(9, 1fr);\n  grid-template-areas:\n    \"... main main main main main main main ...\"\n    \"footer footer footer footer footer footer footer footer footer\";\n  margin: -15px, 0px, -10px, 0px;\n}\n\n.mainContent{\n  grid-area: main;\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: (1fr)[3];\n      grid-template-columns: repeat(3, 1fr);\n  grid-gap: 15px;\n  grid-template-areas:\n    \"events events events\"\n    \"media media media\";\n  text-align: center;\n}\n\n.events{grid-area: events}\n\n.eventItem{\n  background: rgba(0, 0, 0, 0.6);\n  padding: 1%;\n  margin: 1%;\n  position: relative;\n}\n\n.media{grid-area: media}\n\n.videos{\n  width: 100%;\n}\n.Video{\n  padding: 3%;\n  height: 200px;\n}\n\n.footer{\n  grid-area: footer;\n  text-align: center;\n  padding: 2%;\n  font-size: 75%;\n}\n\n/*Image and Video Resizing*/\n.imageResize{\n  width: 200%;\n}\niframe{\n  width: 100%;\n  height: 100%;\n}\n\n@media(min-width: 700px ){\n  .mainContent{\n    -ms-grid-columns: (1fr)[8];\n        grid-template-columns: repeat(8, 1fr);\n    grid-template-areas:\n      \"events events events events media media media media\"\n  }\n  .imageResize{\n    width: auto\\9;\n    max-width: 100%;\n  \theight: auto;\n  }\n  .Video{\n    height: 200px;\n  }\n  iframe{\n    width: 100%;\n    height: 100%;\n  }\n\n}\n\n@media(min-width: 1200px){\n  .Video{\n    height: 300px;\n  }\n}\n", ""]);
+exports.push([module.i, ".wrapper{\n  background-color: rgba(0, 0, 0, 0.5);\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: (1fr)[9];\n      grid-template-columns: repeat(9, 1fr);\n  grid-template-areas:\n    \"... audio audio audio audio audio audio audio ...\";\n  margin: -15px, 0px, -10px, 0px;\n  min-height: 900px;\n}\n.media{grid-area: audio}\n\n\n\n.Audio > img{\n  width: 100%;\n}\n\naudio{\n  width: 100%;\n  margin-top: -10px;\n  margin-bottom: 20px;\n}\n\n@media(min-width: 700px ){\n  .wrapper{\n    -ms-grid-columns: (1fr)[9];\n        grid-template-columns: repeat(9, 1fr);\n    grid-template-areas:\n      \"... ... audio audio audio audio audio ... ...\";\n  }\n}\n", ""]);
 
 // exports
 
@@ -393,42 +449,6 @@ exports = module.exports = __webpack_require__(15)(false);
 
 
 // module
-exports.push([module.i, "\nbody {\n  background: url(" + __webpack_require__(498) + ") no-repeat center center fixed;\n  background-size: cover;\n  background-color: black;\n  color: white;\n  margin: -10px;\n}\n\na{\n  color: white;\n  text-decoration: none;\n}\n.wrapper{\n  background-color: rgba(0, 0, 0, 0.5);\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: (1fr)[9];\n      grid-template-columns: repeat(9, 1fr);\n  grid-template-areas:\n    \"header header header header header header header header header\"\n    \"... title title title title ... ... ... ...\"\n\n}\n.header{\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: (1fr)[9];\n      grid-template-columns: repeat(9, 1fr);\n  grid-area: header;\n  grid-template-areas:\n    \"... home about music video gigs contact social ...\";\n  background-color: rgba(0, 0, 0, 0.7);\n  padding: 3%;\n  text-align: center;\n  font-size: 1.4vw;\n}\n\n.home{grid-area: home;}\n.about{grid-area: about;}\n.music{grid-area: music;}\n.video{grid-area: video;}\n.gigs{grid-area: gigs;}\n.contact{grid-area: contact;}\n.social{grid-area: social;}\n\n.title{grid-area: title;}\n\n/*Image and Video Resizing*/\n.imageResize{\n  width: 200%;\n}\n.videoSize{\n  width: 100%;\n  height: 150%;\n  width: auto\\9;\n}\n\n@media(min-width: 600px ){\n  .mainContent{\n    -ms-grid-columns: (1fr)[8];\n        grid-template-columns: repeat(8, 1fr);\n    grid-template-areas:\n      \"events events events events events media media media\"\n  }\n  .imageResize{\n    width: auto\\9;\n    max-width: 100%;\n  \theight: auto;\n  }\n}\n", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 218:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(15)(false);
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 219:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(15)(false);
-// imports
-
-
-// module
 exports.push([module.i, ".wrapper{\n  background-color: rgba(0, 0, 0, 0.5);\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: (1fr)[9];\n      grid-template-columns: repeat(9, 1fr);\n  grid-template-areas:\n    \"... video video video video video video video ...\";\n  margin: -15px, 0px, -10px, 0px;\n}\n.media{\n  grid-area: video;\n  text-align: center;\n}\n\n.videos{\n  width: 100%;\n}\n.Video{\n  padding: 3%;\n  height: 40vw;\n}\niframe{\n  width: 100%;\n  height: 100%;\n}\n", ""]);
 
 // exports
@@ -439,63 +459,63 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 222:
+/***/ 219:
 /***/ (function(module, exports) {
 
 module.exports = "<app-music-app></app-music-app>\n"
 
 /***/ }),
 
-/***/ 223:
+/***/ 220:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"wrapper\">\n  <div class=\"pic\">\n    <div class=\"backdrop\">\n      <img class=\"imageResize\" src=\"../../assets/bioPicResized.jpg\" alt=\"\">\n    </div>\n  </div>\n  <div class=\"about\">\n    <h1>About</h1>\n    <p>\"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis\n      praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias\n      excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui\n      officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem\n      rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est\n      eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere\n      possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus\n      autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet\n      ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum\n      rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores\n      alias consequatur aut perferendis doloribus asperiores repellat.\"<br><br>\n      \"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis\n      praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias\n      excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui\n      officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem\n      rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est\n      eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere\n      possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus\n      autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet\n      ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum\n      rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores\n      alias consequatur aut perferendis doloribus asperiores repellat.\"\n    </p>\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ 224:
+/***/ 221:
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  contact works!\n</p>\n"
+module.exports = "<div class=\"wrapper\">\n  <div class=\"contact\">\n    <div class=\"form\">\n      <h1>CONTACT:</h1>\n      <form action=\"index.html\" method=\"post\">\n        <input type=\"text\" name=\"\" placeholder=\"Name\" value=\"\">\n        <input type=\"text\" name=\"\" placeholder=\"Email\" value=\"\">\n        <input type=\"text\" name=\"\" placeholder=\"Subject\" value=\"\">\n        <input id=\"message\" type=\"text\" name=\"\" placeholder=\"Message\" value=\"\">\n        <input class=\"form-control\" type=\"submit\" name=\"\" value=\"SEND\">\n      </form>\n    </div>\n    <div class=\"info\">\n      <div class=\"data1\">\n        <h1>MANAGEMENT</h1>\n        <p>Karen Blanche <br> info@mysite.com, 123-456-7890</p>\n      </div>\n      <div class=\"data1\">\n        <h1>PRESS</h1>\n        <p>That Girl Pr, Sarah Brookstone <br> info@mysite.com, 123-456-7890</p>\n      </div>\n      <div class=\"data2\">\n        <h1>BOOKING</h1>\n        <p>The Bookerz, Daniel Ku <br> info@mysite.com, 123-456-7890</p>\n      </div>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ 225:
+/***/ 222:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"wrapper\">\n  <div class=\"footer\">\n    © 2025 by Briggs-Designs. MEAN Template for Fully Functional Website.\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ 226:
+/***/ 223:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"wrapper\">\n  <div class=\"events\">\n    <h3>Events</h3>\n    <div class=\"eventItem\" *ngFor=\"let event of events\">\n       <h4>{{event.events}}</h4>\n       <h5>{{event.location}} {{event.city}}, {{event.state}}</h5>\n       <h5>{{event.date | date: 'fullDate' }}</h5>\n       <h5>{{event.date | date: 'jm' }}</h5>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
+/***/ 224:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"wrapper\">\n  <div class=\"mainContent\">\n    <div class=\"events\">\n      <h1>Events</h1>\n      <div class=\"eventItem\" *ngFor=\"let event of events\">\n         <h4>{{event.events}}</h4>\n         <h5>{{event.location}} {{event.city}}, {{event.state}}</h5>\n         <h5>{{event.date | date: 'fullDate' }}</h5>\n         <h5>{{event.date | date: 'jm' }}</h5>\n      </div>\n    </div>\n    <div class=\"media\">\n      <h1>Media</h1>\n      <div class=\"videos\">\n        <div class=\"Video\">\n          <iframe class=\"videoSize\" src=\"https://www.youtube.com/embed/2V3CHAyuDiY\"></iframe>\n        </div>\n        <div class=\"Video\">\n          <iframe class=\"videoSize\" src=\"https://www.youtube.com/embed/r6kyhivVZyY\"></iframe>\n        </div>\n        <div class=\"Video\">\n          <iframe class=\"videoSize\" src=\"https://www.youtube.com/embed/jKDZWh2lBAM\"></iframe>\n        </div>\n        <div class=\"Video\">\n          <iframe class=\"videoSize\" src=\"https://www.youtube.com/embed/zGEWqBm_-iw\"></iframe>\n        </div>\n        <div class=\"Audio\">\n          <img style=\"width: 100%\" src=\"../../assets/theCode.jpg\" alt=\"\">\n          <audio style=\"width: 100%\" controls>\n            <source src=\"../../assets/W&W Feat. Ummet Ozcan - The Code (Original Mix).mp3\" type=\"audio/mpeg\">\n            Your browser does not support the audio element.\n          </audio>\n        </div>\n        <div class=\"Audio\">\n          <img style=\"width: 100%\" src=\"../../assets/takeOver.jpg\" alt=\"\">\n          <audio style=\"width: 100%\" controls>\n            <source src=\"../../assets/Afrojack ft. Eva Simons - Take Over Control (Official Radio Mix).mp3\" type=\"audio/mpeg\">\n            Your browser does not support the audio element.\n          </audio>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ 225:
+/***/ (function(module, exports) {
+
+module.exports = "<body>\n  <div class=\"wrapper\">\n    <div class=\"aheader\">\n      <div class=\"home\"><a routerLink=\"\">HOME</a></div>\n      <div class=\"about\"><a routerLink=\"about\">ABOUT</a></div>\n      <div class=\"music\"><a routerLink=\"music\">MUSIC</a></div>\n      <div class=\"video\"><a routerLink=\"video\">VIDEO</a></div>\n      <div class=\"gigs\"><a routerLink=\"gigs\">GIGS</a></div>\n      <div class=\"contact\"><a routerLink=\"contact\">CONTACT</a></div>\n      <div class=\"social\">\n        <a href=\"#\"><img src=\"../../assets/facebookLogo.png\" alt=\"\"></a>\n        <a href=\"#\"><img src=\"../../assets/twitterLogo.png\" alt=\"\"></a>\n        <a href=\"#\"><img src=\"../../assets/youTubeLogo.png\" alt=\"\"></a>\n        <a href=\"#\"><img src=\"../../assets/instagramLogo.png\" alt=\"\"></a>\n      </div>\n      <button class=\"hamburger\">&#9776;</button>\n      <button class=\"cross\">&#735;</button>\n      <div class=\"menu\">\n        <ul>\n          <a routerLink=\"\"><li>HOME</li></a>\n          <a routerLink=\"about\"><li>ABOUT</li></a>\n          <a routerLink=\"music\"><li>MUSIC</li></a>\n          <a routerLink=\"video\"><li>VIDEO</li></a>\n          <a routerLink=\"gigs\"><li>GIGS</li></a>\n          <a routerLink=\"contact\"><li>CONTACTS</li></a>\n        </ul>\n      </div>\n    </div>\n    <div class=\"title\">\n      <img class=\"imageResize\" src=\"../../assets/Logo.png\" alt=\"\">\n    </div>\n  </div>\n  <router-outlet></router-outlet>\n  <app-footer></app-footer>\n</body>\n"
+
+/***/ }),
+
+/***/ 226:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"wrapper\">\n  <div class=\"media\">\n    <div class=\"Audio\">\n      <img style=\"width: 100%\" src=\"../../assets/theCode.jpg\" alt=\"\">\n      <audio style=\"width: 100%\" controls>\n        <source src=\"../../assets/W&W Feat. Ummet Ozcan - The Code (Original Mix).mp3\" type=\"audio/mpeg\">\n        Your browser does not support the audio element.\n      </audio>\n    </div>\n    <div class=\"Audio\">\n      <img style=\"width: 100%\" src=\"../../assets/takeOver.jpg\" alt=\"\">\n      <audio style=\"width: 100%\" controls>\n        <source src=\"../../assets/Afrojack ft. Eva Simons - Take Over Control (Official Radio Mix).mp3\" type=\"audio/mpeg\">\n        Your browser does not support the audio element.\n      </audio>\n    </div>\n  </div>\n</div>\n"
+
+/***/ }),
+
 /***/ 227:
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"wrapper\">\n  <div class=\"mainContent\">\n    <div class=\"events\">\n      <h1>Events</h1>\n      <div class=\"eventItem\" *ngFor=\"let event of events\">\n         <h4>{{event.events}}</h4>\n         <h5>{{event.location}} {{event.city}}, {{event.state}}</h5>\n         <h5>{{event.date | date: 'fullDate' }}</h5>\n         <h5>{{event.date | date: 'jm' }}</h5>\n      </div>\n    </div>\n    <div class=\"media\">\n      <h1>Media</h1>\n      <div class=\"videos\">\n        <div class=\"Video\">\n          <iframe class=\"videoSize\" src=\"https://www.youtube.com/embed/2V3CHAyuDiY\"></iframe>\n        </div>\n        <div class=\"Video\">\n          <iframe class=\"videoSize\" src=\"https://www.youtube.com/embed/r6kyhivVZyY\"></iframe>\n        </div>\n        <div class=\"Video\">\n          <iframe class=\"videoSize\" src=\"https://www.youtube.com/embed/jKDZWh2lBAM\"></iframe>\n        </div>\n        <div class=\"Video\">\n          <iframe class=\"videoSize\" src=\"https://www.youtube.com/embed/zGEWqBm_-iw\"></iframe>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
-
-/***/ }),
-
-/***/ 228:
-/***/ (function(module, exports) {
-
-module.exports = "<body>\n  <div class=\"wrapper\">\n    <div class=\"header\">\n      <div class=\"home\"><a routerLink=\"\">HOME</a></div>\n      <div class=\"about\"><a routerLink=\"about\">ABOUT</a></div>\n      <div class=\"music\"><a routerLink=\"music\">MUSIC</a></div>\n      <div class=\"video\"><a routerLink=\"video\">VIDEO</a></div>\n      <div class=\"gigs\"><a routerLink=\"gigs\">GIGS</a></div>\n      <div class=\"contact\"><a routerLink=\"contact\">CONTACT</a></div>\n      <div class=\"social\">\n        <img style=\"width: 20px;\" src=\"../../assets/fbIcon.jpg\" alt=\"\">\n        <img style=\"width: 20px;\" src=\"../../assets/twIcon.jpg\" alt=\"\">\n      </div>\n    </div>\n    <div class=\"title\">\n      <img class=\"imageResize\" src=\"../../assets/Logo.png\" alt=\"\">\n    </div>\n  </div>\n  <router-outlet></router-outlet>\n  <app-footer></app-footer>\n</body>\n"
-
-/***/ }),
-
-/***/ 229:
-/***/ (function(module, exports) {
-
-module.exports = "<p>\n  music works!\n</p>\n"
-
-/***/ }),
-
-/***/ 230:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"wrapper\">\n  <div class=\"media\">\n    <h3>Videos</h3>\n    <div class=\"videos\">\n      <div class=\"Video\">\n        <iframe class=\"videoSize\" src=\"https://www.youtube.com/embed/2V3CHAyuDiY\"></iframe>\n      </div>\n      <div class=\"Video\">\n        <iframe class=\"videoSize\" src=\"https://www.youtube.com/embed/r6kyhivVZyY\"></iframe>\n      </div>\n      <div class=\"Video\">\n        <iframe class=\"videoSize\" src=\"https://www.youtube.com/embed/jKDZWh2lBAM\"></iframe>\n      </div>\n      <div class=\"Video\">\n        <iframe class=\"videoSize\" src=\"https://www.youtube.com/embed/zGEWqBm_-iw\"></iframe>\n      </div>\n    </div>\n  </div>\n</div>\n"
@@ -508,7 +528,7 @@ module.exports = "<div class=\"wrapper\">\n  <div class=\"media\">\n    <h3>Vide
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(85);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs__ = __webpack_require__(232);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs__ = __webpack_require__(229);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MusicAppService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -544,17 +564,17 @@ var _a;
 
 /***/ }),
 
-/***/ 498:
+/***/ 496:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "musicEvent.3132c952fa45df8fe5f3.jpg";
 
 /***/ }),
 
-/***/ 500:
+/***/ 498:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(143);
+module.exports = __webpack_require__(142);
 
 
 /***/ }),
@@ -585,8 +605,8 @@ var AboutComponent = (function () {
 AboutComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* Component */])({
         selector: 'app-about',
-        template: __webpack_require__(223),
-        styles: [__webpack_require__(212)]
+        template: __webpack_require__(220),
+        styles: [__webpack_require__(210)]
     }),
     __metadata("design:paramtypes", [])
 ], AboutComponent);
@@ -621,8 +641,8 @@ var ContactComponent = (function () {
 ContactComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* Component */])({
         selector: 'app-contact',
-        template: __webpack_require__(224),
-        styles: [__webpack_require__(213)]
+        template: __webpack_require__(221),
+        styles: [__webpack_require__(211)]
     }),
     __metadata("design:paramtypes", [])
 ], ContactComponent);
@@ -672,8 +692,8 @@ var GigsComponent = (function () {
 GigsComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* Component */])({
         selector: 'app-gigs',
-        template: __webpack_require__(226),
-        styles: [__webpack_require__(215)]
+        template: __webpack_require__(223),
+        styles: [__webpack_require__(213)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__music_app_service__["a" /* MusicAppService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__music_app_service__["a" /* MusicAppService */]) === "function" && _a || Object])
 ], GigsComponent);
@@ -712,6 +732,11 @@ var HomeComponent = (function () {
         var _this = this;
         this._musicAppService.allEvents()
             .then(function (response) { return _this.events = response; })
+            .then(function (response) { return _this.events = response.sort(function (a, b) {
+            a = new Date(a.date);
+            b = new Date(b.date);
+            return b > a ? -1 : b < a ? 1 : 0;
+        }); })
             .catch(function (err) { return console.log(err); });
     };
     return HomeComponent;
@@ -719,8 +744,8 @@ var HomeComponent = (function () {
 HomeComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* Component */])({
         selector: 'app-home',
-        template: __webpack_require__(227),
-        styles: [__webpack_require__(216)]
+        template: __webpack_require__(224),
+        styles: [__webpack_require__(214)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__music_app_service__["a" /* MusicAppService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__music_app_service__["a" /* MusicAppService */]) === "function" && _a || Object])
 ], HomeComponent);
@@ -756,8 +781,8 @@ var MusicComponent = (function () {
 MusicComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* Component */])({
         selector: 'app-music',
-        template: __webpack_require__(229),
-        styles: [__webpack_require__(218)]
+        template: __webpack_require__(226),
+        styles: [__webpack_require__(216)]
     }),
     __metadata("design:paramtypes", [])
 ], MusicComponent);
@@ -792,8 +817,8 @@ var VideoComponent = (function () {
 VideoComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* Component */])({
         selector: 'app-video',
-        template: __webpack_require__(230),
-        styles: [__webpack_require__(219)]
+        template: __webpack_require__(227),
+        styles: [__webpack_require__(217)]
     }),
     __metadata("design:paramtypes", [])
 ], VideoComponent);
@@ -802,5 +827,5 @@ VideoComponent = __decorate([
 
 /***/ })
 
-},[500]);
+},[498]);
 //# sourceMappingURL=main.bundle.js.map

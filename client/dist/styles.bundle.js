@@ -1,15 +1,15 @@
-webpackJsonp([3,5],{
+webpackJsonp([2,5],{
 
-/***/ 147:
+/***/ 145:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(210);
+var content = __webpack_require__(208);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__(497)(content, {});
+var update = __webpack_require__(495)(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -110,7 +110,7 @@ function toComment(sourceMap) {
 
 /***/ }),
 
-/***/ 210:
+/***/ 208:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(15)(false);
@@ -125,7 +125,7 @@ exports.push([module.i, "*{\n  font-family: \"Saira\", serif;\n}\n", ""]);
 
 /***/ }),
 
-/***/ 497:
+/***/ 495:
 /***/ (function(module, exports) {
 
 /*
@@ -378,13 +378,13 @@ function updateLink(linkElement, obj) {
 
 /***/ }),
 
-/***/ 502:
+/***/ 500:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(147);
+module.exports = __webpack_require__(145);
 
 
 /***/ })
 
-},[502]);
+},[500]);
 //# sourceMappingURL=styles.bundle.js.map

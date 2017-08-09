@@ -23,27 +23,88 @@ a{
     "... title title title title ... ... ... ..."
 
 }
-.header{
+.aheader{
   display: grid;
-  grid-template-columns: repeat(9, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-area: header;
   grid-template-areas:
-    "... home about music video gigs contact social ...";
+    "... ... ... hamburger ";
   background-color: rgba(0, 0, 0, 0.7);
+  height: 30px;
   padding: 3%;
   text-align: center;
-  font-size: 1.4vw;
 }
 
-.home{grid-area: home;}
-.about{grid-area: about;}
-.music{grid-area: music;}
-.video{grid-area: video;}
-.gigs{grid-area: gigs;}
-.contact{grid-area: contact;}
-.social{grid-area: social;}
-
+.home{
+  display: none;
+  grid-area: home;
+}
+.about{
+  display: none;
+  grid-area: about;
+}
+.music{
+  display: none;
+  grid-area: music;
+}
+.video{
+  display: none;
+  grid-area: video;
+}
+.gigs{
+  display: none;
+  grid-area: gigs;
+}
+.contact{
+  display: none;
+  grid-area: contact;
+}
+.social{
+  display: none;
+  grid-area: social;
+}
 .title{grid-area: title;}
+
+.hamburger{
+  display: inline-block;
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:5px 25px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:2em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:15px 25px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:4em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+.menu{z-index:1000000; margin-right: -5px; font-weight:bold; width:100%; background:rgba(0,0,0,0.9);  position:absolute; text-align:center; font-size:14px;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:20px 0 20px 0; border-bottom:#393939 1px solid;}
+.menu li:hover{display: block; background:#000; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#fff;}
+.menu ul li a:hover {  color: #fff; text-decoration:none;}
+.menu a{text-decoration:none; color:#fff;}
+.menu a:hover{text-decoration:none; color:#fff;}
 
 /*Image and Video Resizing*/
 .imageResize{
@@ -65,5 +126,55 @@ a{
     width: auto\9;
     max-width: 100%;
   	height: auto;
+  }
+  .hamburger{
+    display: none;
+  }
+  .cross{
+    display: none;
+  }
+  .home{
+    display: inline;
+    grid-area: home;
+  }
+  .about{
+    display: inline;
+    grid-area: about;
+  }
+  .music{
+    display: inline;
+    grid-area: music;
+  }
+  .video{
+    display: inline;
+    grid-area: video;
+  }
+  .gigs{
+    display: inline;
+    grid-area: gigs;
+  }
+  .contact{
+    display: inline;
+    grid-area: contact;
+  }
+  .social{
+    display: inline;
+    padding-right: 2%;
+    grid-area: social;
+  }
+  .social > a, img{
+    width: 20px;
+    margin-right: 2%;
+  }
+  .aheader{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-area: header;
+    grid-template-areas:
+      "... home about music video gigs contact social social";
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 3%;
+    text-align: center;
+    font-size: 15px;
   }
 }

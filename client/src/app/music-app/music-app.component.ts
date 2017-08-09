@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MusicAppService } from './music-app.service';
+declare var jquery:any;
+declare var $ :any;
 
 @Component({
   selector: 'app-music-app',
@@ -12,6 +14,31 @@ export class MusicAppComponent implements OnInit {
 
   ngOnInit() {
     this.allEvents();
+  }
+
+  ngAfterViewInit(): void {
+   $('.cross').hide();
+   $( ".menu" ).hide();
+   $( ".hamburger" ).click(function() {
+     $("body").css("background-color", "rgba(0, 0, 0, 0.9)");
+     $( ".menu" ).slideToggle( "slow", function() {
+       $( ".hamburger" ).hide();
+       $( ".cross" ).show();
+     });
+   });
+
+   $( ".cross" ).click(function() {
+     $("body").css("background-color", "rgba(0, 0, 0, 0.0)");
+     $( ".menu" ).slideToggle( "slow", function() {
+       $( ".cross" ).hide();
+       $( ".hamburger" ).show();
+
+     });
+   });
+ }
+
+  toggleTitle(){
+
   }
   allEvents(){
     this._musicAppService.allEvents()

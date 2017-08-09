@@ -15,11 +15,11 @@ export class HomeComponent implements OnInit {
   allEvents(){
     this._musicAppService.allEvents()
     .then( (response)=>this.events=response)
-    // .then( (response)=>this.events=response.sort(function(a, b) {
-    //     a = new Date(a.date);
-    //     b = new Date(b.date);
-    //     return b>a ? -1 : b<a ? 1 : 0;
-    // }))
+    .then( (response)=>this.events=response.sort(function(a, b) {
+        a = new Date(a.date);
+        b = new Date(b.date);
+        return b>a ? -1 : b<a ? 1 : 0;
+    }))
     .catch( (err)=>console.log(err) )
   }
 }

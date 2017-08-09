@@ -8,8 +8,7 @@ a{
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   grid-template-areas:
-    "... main main main main main main main ..."
-    "footer footer footer footer footer footer footer footer footer";
+    "... main main main main main main main ...";
   margin: -15px, 0px, -10px, 0px;
 }
 
@@ -39,8 +38,19 @@ a{
   width: 100%;
 }
 .Video{
-  padding: 3%;
+  padding-right: 1%;
+  padding-bottom: 4%;
   height: 200px;
+}
+
+.Audio > img{
+  width: 100%;
+}
+
+audio{
+  width: 100%;
+  margin-top: -10px;
+  margin-bottom: 20px;
 }
 
 .footer{
